@@ -1,7 +1,6 @@
-const ramos = document.querySelectorAll(".ramo");
-
-ramos.forEach((ramo) => {
+document.querySelectorAll(".ramo").forEach((ramo) => {
   ramo.addEventListener("click", () => {
     ramo.classList.toggle("tachado");
   });
 });
+
