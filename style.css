@@ -1,0 +1,22 @@
+body {
+  font-family: Arial;
+  text-align: center;
+  background-color: #f0f8ff;
+}
+
+#malla {
+  display: grid;
+  grid-template-columns: repeat(5, 60px);
+  gap: 10px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.cuadro {
+  width: 60px;
+  height: 60px;
+  background-color: #add8e6;
+  border: 2px solid #000;
+  cursor: pointer;
+  transition: 0.3s;
+}
